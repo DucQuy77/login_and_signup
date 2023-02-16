@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login & Signup</title>
+        <link rel="stylesheet" href="./assets/style.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/rolly.js@0.2.1/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    </head>
+    <body>
+        <div class="form-container sign-in-form">
+            <div class="form-box sign-in-box">
+                <h2>Login</h2>
+                <form action="">
+                    <div class="field">
+                        <i class="uil uil-at"></i>
+                        <input type="email" placeholder="Email ID" required>
+                    </div>
+                    <div class="field">
+                        <i class="uil uil-lock-alt"></i>
+                        <input class="password-input" type="password" placeholder="Password" required>
+                        <div class="eye-btn"><i class="uil uil-eye-slash"></i></div>
+                    </div>
+                    <div class="forgot-link">
+                        <a href="#">Forget password?</a>
+                    </div>
+                    <input class="submit-btn" type="submit" value="Login">
+                </form>
+                <div class="login-options">
+                    <p class="text">Or, login with...</p>
+                    <div class="other-logins">
+                        <a href=""><img src="./assets/img/apple.png" alt=""></a>
+                        <a href=""><img src="./assets/img/facebook.png" alt=""></a>
+                        <a href=""><img src="./assets/img/google.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="imgBox sign-in-imgBox">
+                <div class="sliding-link">
+                    <p>Don't have an account?</p>
+                    <span class="sign-up-btn">Sign up</span>
+                </div>
+                <img src="./assets/img/signin-img.png" alt="">
+            </div>
+        </div>
+
+        <div class="form-container sign-up-form">
+            <div class="imgBox sign-up-imgBox">
+                <div class="sliding-link">
+                    <p>Already a member ?</p>
+                    <span class="sign-in-btn">Sign in</span>
+                </div>
+                <img src="./assets/img/signup-img.png" alt="">
+            </div>
+            <div class="form-box sign-up-box">
+                <h2>Sign up</h2>
+                <div class="login-options">
+                    <div class="other-logins">
+                        <a href=""><img src="./assets/img/apple.png" alt=""></a>
+                        <a href=""><img src="./assets/img/facebook.png" alt=""></a>
+                        <a href=""><img src="./assets/img/google.png" alt=""></a>
+                    </div>
+                    <p class="text">Or, sign up with email...</p>
+                </div>
+                <form action="">
+                    <div class="field">
+                        <i class="uil uil-at"></i>
+                        <input type="email" placeholder="Email ID" required>
+                    </div>
+                    <div class="field">
+                        <i class="uil uil-user"></i>
+                        <input type="text" placeholder="Full name" required>
+                    </div>
+                    <div class="field">
+                        <i class="uil uil-lock-alt"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="field">
+                        <i class="uil uil-lock-access"></i>
+                        <input type="password" placeholder="Confirm password" required>
+                    </div>
+                    <input class="submit-btn" type="submit" value="Sign up">
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="./assets/js/index.js"></script>
+</html>
